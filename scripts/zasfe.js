@@ -23,9 +23,9 @@ export let options = {
 
 export default function () {
   // LB
-  // const response = http.get("http://114.108.153.201/products.php", {headers: {Accepts: "text/html;"}});
+  // const response = http.get("http://127.0.0.1/products.php", {headers: {Accepts: "text/html;"}});
   // WEB1
-  const response = http.get("http://114.108.153.165/products.php", {headers: {Accepts: "text/html;"}});
+  const response = http.get("http://127.0.0.1/products.php", {headers: {Accepts: "text/html;"}});
   check(response, { "status is 200": (r) => r.status === 200 });
   sleep(.300);
 };
