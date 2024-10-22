@@ -5,4 +5,4 @@ echo "Load testing with Grafana dashboard http://localhost:3000/d/k6/k6-load-tes
 echo "--------------------------------------------------------------------------------------"
 #docker compose run --rm k6 run /scripts/ewoks.js
 #docker compose run --rm k6 run /scripts/gabia.js
-docker compose run --rm k6 run -o experimental-prometheus-rw /scripts/gabia.js
+docker compose run --rm k6 run -o experimental-prometheus-rw /scripts/zasfe.js
